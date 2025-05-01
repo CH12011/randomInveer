@@ -1,0 +1,43 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #000000;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+
+.ascii-only {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#ascii-display {
+    font-family: 'Courier New', monospace;
+    font-size: 8px;
+    line-height: 1;
+    white-space: pre;
+    color: #FFFFFF;
+    text-align: left;
+}
+
+@media (min-width: 768px) {
+    #ascii-display {
+        font-size: 12px;
+    }
+}
+
+@media (min-width: 1200px) {
+    #ascii-display {
+        font-size: 14px;
+    }
+}
